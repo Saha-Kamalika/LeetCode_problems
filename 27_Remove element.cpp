@@ -4,7 +4,7 @@ public:
         int count = 0;
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] != val) {
-                nums[count++] = nums[i];  //in place
+                nums[count++] = nums[i]; 
             }
         }
         return count;

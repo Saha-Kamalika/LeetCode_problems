@@ -1,7 +1,8 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        stack<char> s1,s2;
+        stack<char> s1;
+        stack<char> s2;
         for(char c: s)
             if(c!='#')
                 s1.push(c);

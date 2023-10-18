@@ -1,5 +1,5 @@
 //kelane
-class Solution {
+class Solution  {
 public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
         sort(costs.begin(), costs.end(), [](const vector<int>&a, const vector<int>&b){

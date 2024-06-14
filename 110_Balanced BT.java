@@ -5,7 +5,7 @@ class Solution {
         return true;
     }
     public static int getHt(TreeNode root) {
-        if(root==null) return 0;
+        if(root==null) return 0; 
         int lh=getHt(root.left);
         int rh=getHt(root.right);
         if(lh==-1 || rh==-1) return -1;
